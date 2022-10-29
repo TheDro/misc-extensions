@@ -1,0 +1,15 @@
+{
+  "name": "MiscExtensions",
+  "description": "Various extensions that make my internet better",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.soundslice.com/slices/*"
+      ],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ]
+}
