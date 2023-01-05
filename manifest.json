@@ -6,7 +6,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.soundslice.com/slices/*"
+        "https://www.soundslice.com/slices/*",
+        "https://www.soundslice.com/scores/*"
       ],
       "js": ["content.js"],
       "all_frames": true
